@@ -2,8 +2,8 @@
 # This file is the source: the release workflow fills in version and sha256 for each release and
 # commits the result to the tap as Casks/workbench-dashboard.rb (see docs/releasing.md).
 cask "workbench-dashboard" do
-  version "0.2.0"
-  sha256 "ed8baca52b2c16980fafd1e6564cf5f05197c0f23689133acd01f328d5e33139"
+  version "0.2.1"
+  sha256 "5bbf5612db103f8bbb86d17a2c746bb840a657ff9a6e1e09375b66ac28ce8c48"
 
   url "https://github.com/user7217/workbench/releases/download/v#{version}/Workbench_#{version}_aarch64.dmg"
   name "Workbench"
